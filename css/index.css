@@ -1,0 +1,210 @@
+html, body{
+	font-family: verdana;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+button{
+	font-family: verdana;
+}
+#header{
+	color: white;
+	height: 90px;
+	background-color: #ececec;
+	border-bottom: 1px solid black;
+	background: #354b66;
+	background: -webkit-gradient(linear,0 0,0 100%,from(#364d68),to(#2c3f55));
+	background-image: url("../img/mainbg.png");
+	overflow: hidden;
+}
+#header #logo{
+	height: 50px;
+	margin-top: 20px;	
+	margin-left: 20px;
+	float: left;	
+}
+#time{
+	float: left;
+	margin-top: 45px;
+	margin-left: 40px;
+}
+#board{
+	float: left;
+	margin-left: 20px;
+	margin-top: 25px;
+	font-weight: bold;
+	font-family: 'Microsoft YaHei';
+	width: 300px;
+	height: 60px;
+	overflow: hidden;
+}
+#cur_user{
+	margin-top: 65px;
+	margin-left: 20px;
+	float: left;
+	font-weight: bold;
+} 
+#menu{
+	width: 140px;
+	height: 82%;
+	border-right: 1px solid #b0bac6;
+	float: left;
+	background-color: #e8ebef;
+}
+#main{
+	float: left;
+	height: 82%;
+	width: 80%;
+	overflow: hidden;
+}
+#talk{
+	margin-left: 20px;
+	margin-top: 20px;
+	height: 100%;
+	overflow: hidden;
+}
+.msgtime{
+	color: grey;
+	font-size : 10px;
+}
+#talkbox{
+	height: 450px;
+	overflow-y: scroll;
+	width: 100%;
+	overflow-x: hidden;
+	margin-top: 20px;
+}
+#meetings{
+	height: 100%;
+	
+	overflow: hidden;
+}
+.input-prepend{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#meetingbox{
+	overflow-y: scroll;
+	height: 500px;
+}
+#msgcontent{
+	width: 427px;
+	height: 50px;
+}
+#multinego-table{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.time-edit{
+    font-size: 10px;
+}
+.btn_usertalkbox{
+	margin-right: 20px;
+}
+.msg{
+	width: 100%;
+	height: 20px;
+	padding-top: 2px; 	
+	padding-bottom: 2px;
+	overflow: hidden;
+	border-bottom: 1px solid #ececec;
+}
+.from{
+	background-color: #e8ebef;
+}
+.to{
+}
+.usertalkbox{
+}
+.title{
+	margin-left:20px;
+}
+#announcement{
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 95%;
+}
+#cabinet_talks{
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 95%;
+}
+#talkform{
+	margin-left: 20px;
+}
+#btn_formbox{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#formbox{
+	text-align: center;
+	width: 500px;
+}
+#settings{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#cleaner{
+	clear: both;
+}
+#typechose{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#feedback{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#IPC{
+	width: 95%;
+	height: 100%;
+	overflow-y: scroll;
+} 
+#IPC_table{
+	table-layout:fixed;
+	margin-top:10px;
+	white-space: nowrap;
+}
+#IPC_table td{
+	height: 10px;
+	overflow: hidden;
+}
+#IPC_container{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#order{
+	width: 95%;
+	height: 100%;
+	overflow-y: scroll;
+	padding: 20px;
+} 
+#order_table{
+	table-layout:fixed;
+	margin-top:20px;
+	white-space: nowrap;
+	width: 95%;
+}
+#order_table td{
+	height: 10px;
+	overflow: hidden;
+}
+#footer{
+	width: 200px;
+	text-align: center;
+	margin:0 auto;
+	margin-top: 10px;
+}
+#add_order_box{
+	padding: 20px;
+}
+#add_order_cabinet_box{
+	padding: 20px;
+}
+#logout{
+	margin-top: 65px;
+	margin-left: 20px;
+	float: left;
+	font-weight: bold;
+}

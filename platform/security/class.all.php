@@ -1,0 +1,1 @@
+<?php include "class.cookie.php" ?>
